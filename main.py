@@ -6,9 +6,14 @@ def sub(a, b):
     return a - b
 
 
+def mul(a, b):
+    return a ** b
+
+
 def main():
     print(add(1, 2))
     print(sub(2, 1))
+    print(mul(1, 2))
 
 
 if __name__ == '__main__':
